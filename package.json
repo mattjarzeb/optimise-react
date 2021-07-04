@@ -13,10 +13,13 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
+  "prettier": "eslint-config-teacode/prettier",
   "devDependencies": {
+    "@types/faker": "^5.5.6",
     "@types/react": "^17.0.13",
     "eslint": "7.30.0",
-    "eslint-config-next": "11.0.1",
+    "eslint-config-teacode": "^1.0.2",
+    "faker": "^5.5.3",
     "typescript": "4.3.5"
   }
 }
