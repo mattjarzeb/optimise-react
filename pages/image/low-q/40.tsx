@@ -1,20 +1,21 @@
 import Head from 'next/head'
-import styles from '../../styles/Image.module.css'
+import styles from '../../../styles/Image.module.css'
 import * as faker from 'faker'
-// @ts-ignore
-// import Img from 'react-cloudinary-lazy-image'
 
 export default function Image() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Image - CB</title>
+        <title>Img - Cloud - original</title>
         <meta name="description" content="Thesis example" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        {/*<Img src={'/landscape.jpeg'} className={styles.image} />*/}
+        <img
+          src={'https://res.cloudinary.com/teacode/image/upload/q_40/v1631468097/studies/landscape.jpg'}
+          className={styles.image}
+        />
 
         <h2 className={styles.subtitle}>W tym scenariuszu budujemy testowy obrazek</h2>
         <p className={styles.description}>

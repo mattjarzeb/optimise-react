@@ -13,13 +13,13 @@ export default function Image() {
 
       <main className={styles.main}>
         <img
-          src={'https://res.cloudinary.com/teacode/image/upload/q_90/v1631468097/studies/landscape.webp'}
+          src={'https://res.cloudinary.com/teacode/image/upload/q_80/v1631468097/studies/landscape.webp'}
           srcSet={
-            'https://res.cloudinary.com/teacode/image/upload/q_90,w_750/v1631468097/studies/landscape.webp 750w,' +
-            'https://res.cloudinary.com/teacode/image/upload/q_90,w_828/v1631468097/studies/landscape.webp 828w,' +
-            'https://res.cloudinary.com/teacode/image/upload/q_90,w_1080/v1631468097/studies/landscape.webp 1080w,' +
-            'https://res.cloudinary.com/teacode/image/upload/q_90,w_1200/v1631468097/studies/landscape.webp 1200w,' +
-            'https://res.cloudinary.com/teacode/image/upload/q_90,w_1920/v1631468097/studies/landscape.webp 1920w'
+            'https://res.cloudinary.com/teacode/image/upload/q_80,w_750/v1631468097/studies/landscape.webp 750w,' +
+            'https://res.cloudinary.com/teacode/image/upload/q_80,w_828/v1631468097/studies/landscape.webp 828w,' +
+            'https://res.cloudinary.com/teacode/image/upload/q_80,w_1080/v1631468097/studies/landscape.webp 1080w,' +
+            'https://res.cloudinary.com/teacode/image/upload/q_80,w_1200/v1631468097/studies/landscape.webp 1200w,' +
+            'https://res.cloudinary.com/teacode/image/upload/q_80,w_1920/v1631468097/studies/landscape.webp 1920w'
           }
           alt={'Text image with srcSet'}
           className={styles.image}

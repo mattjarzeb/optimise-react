@@ -13,13 +13,13 @@ export default function Image() {
 
       <main className={styles.main}>
         <img
-          src={'https://res.cloudinary.com/teacode/image/upload/v1631468097/studies/landscape.jpg'}
+          src={'https://res.cloudinary.com/teacode/image/upload/q_100/v1631468097/studies/landscape.jpg'}
           srcSet={
-            'https://res.cloudinary.com/teacode/image/upload/w_750/v1631468097/studies/landscape.jpg 750w,' +
-            'https://res.cloudinary.com/teacode/image/upload/w_828/v1631468097/studies/landscape.jpg 828w,' +
-            'https://res.cloudinary.com/teacode/image/upload/w_1080/v1631468097/studies/landscape.jpg 1080w,' +
-            'https://res.cloudinary.com/teacode/image/upload/w_1200/v1631468097/studies/landscape.jpg 1200w,' +
-            'https://res.cloudinary.com/teacode/image/upload/w_1920/v1631468097/studies/landscape.jpg 1920w'
+            'https://res.cloudinary.com/teacode/image/upload/q_100,w_750/v1631468097/studies/landscape.jpg 750w,' +
+            'https://res.cloudinary.com/teacode/image/upload/q_100,w_828/v1631468097/studies/landscape.jpg 828w,' +
+            'https://res.cloudinary.com/teacode/image/upload/q_100,w_1080/v1631468097/studies/landscape.jpg 1080w,' +
+            'https://res.cloudinary.com/teacode/image/upload/q_100,w_1200/v1631468097/studies/landscape.jpg 1200w,' +
+            'https://res.cloudinary.com/teacode/image/upload/q_100,w_1920/v1631468097/studies/landscape.jpg 1920w'
           }
           alt={'Text image with srcSet'}
           className={styles.image}

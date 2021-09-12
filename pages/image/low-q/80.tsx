@@ -13,7 +13,7 @@ export default function Image() {
 
       <main className={styles.main}>
         <img
-          src={'https://res.cloudinary.com/teacode/image/upload/q_50/v1631468097/studies/landscape.jpg'}
+          src={'https://res.cloudinary.com/teacode/image/upload/q_80/v1631468097/studies/landscape.jpg'}
           className={styles.image}
         />
 
