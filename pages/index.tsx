@@ -17,6 +17,22 @@ export default function Home() {
         <a href={'/image/cloudinary-original'}>Image Cloudinary - original</a>
         <a href={'/image/cloudinary-webp'}>Image Cloudinary - webp</a>
         <a href={'/image/cloudinary-responsive'}>Image Cloudinary - responsive</a>
+        <p>Image Cloudinary - Low Quality</p>
+        <ul>
+          <li>
+            <a href={'/image/low-q/100'}>100</a>
+          </li>
+          <li>
+            <a href={'/image/low-q/90'}>90</a>
+          </li>
+          <li>
+            <a href={'/image/low-q/70'}>70</a>
+          </li>
+          <li>
+            <a href={'/image/low-q/50'}>50</a>
+          </li>
+        </ul>
+        <a href={'/image/cloudinary-all-part1'}>Image Cloudinary - all -part 1</a>
         <a href={'/image/next-self'}>Image Next - self hosted</a>
         <a href={'/image/next-cloudinary'}>Image Next - Cloudinary</a>
         <a href={'/image/cloudinary-blur'}>Image Cloudinary - blur</a>
