@@ -23,13 +23,13 @@ export default function Home() {
             <a href={'/image/low-q/100'}>100</a>
           </li>
           <li>
-            <a href={'/image/low-q/90'}>90</a>
+            <a href={'/image/low-q/80'}>80</a>
           </li>
           <li>
-            <a href={'/image/low-q/70'}>70</a>
+            <a href={'/image/low-q/60'}>60</a>
           </li>
           <li>
-            <a href={'/image/low-q/50'}>50</a>
+            <a href={'/image/low-q/40'}>40</a>
           </li>
         </ul>
         <a href={'/image/cloudinary-all-part1'}>Image Cloudinary - all -part 1</a>
