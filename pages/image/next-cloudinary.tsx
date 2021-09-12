@@ -11,7 +11,7 @@ interface IImage {
 }
 
 const ImageComponent = ({ src, className }: IImage) => {
-  const hostUrl = `/v1630937293/studies`
+  const hostUrl = `/v1631468097/studies`
 
   return (
     <div className={styles.container}>
