@@ -13,10 +13,11 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to testing optimisation techniques</h1>
         <a href={'/control'}>Control</a>
-        <a href={'/image/self-hosted'}>Image native - self hosted</a>
+        <a href={'/image/self-original'}>Image native - self hosted</a>
+        <a href={'/image/cloudinary-original'}>Image Cloudinary - original</a>
+        <a href={'/image/cloudinary-webp'}>Image Cloudinary - webp</a>
         <a href={'/image/next-self'}>Image Next - self hosted</a>
         <a href={'/image/next-cloudinary'}>Image Next - Cloudinary</a>
-        <a href={'/image/cloudinary-full'}>Image Cloudinary - full</a>
         <a href={'/image/cloudinary-blur'}>Image Cloudinary - blur</a>
       </main>
     </div>
