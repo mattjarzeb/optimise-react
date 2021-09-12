@@ -6,14 +6,14 @@ export default function Image() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Img - Cloud - webp</title>
+        <title>Img - Cloud - jxr</title>
         <meta name="description" content="Thesis example" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <img
-          src={'https://res.cloudinary.com/teacode/image/upload/v1631468097/studies/landscape.webp'}
+          src={'https://res.cloudinary.com/teacode/image/upload/v1631468097/studies/landscape.jxr'}
           className={styles.image}
         />
 
