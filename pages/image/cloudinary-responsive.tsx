@@ -15,7 +15,7 @@ export default function Image() {
         <img
           src={'https://res.cloudinary.com/teacode/image/upload/v1631468097/studies/landscape.jpg'}
           srcSet={
-            'https://res.cloudinary.com/teacode/image/upload/w_750w/v1631468097/studies/landscape.jpg 750w,' +
+            'https://res.cloudinary.com/teacode/image/upload/w_750/v1631468097/studies/landscape.jpg 750w,' +
             'https://res.cloudinary.com/teacode/image/upload/w_828/v1631468097/studies/landscape.jpg 828w,' +
             'https://res.cloudinary.com/teacode/image/upload/w_1080/v1631468097/studies/landscape.jpg 1080w,' +
             'https://res.cloudinary.com/teacode/image/upload/w_1200/v1631468097/studies/landscape.jpg 1200w,' +
