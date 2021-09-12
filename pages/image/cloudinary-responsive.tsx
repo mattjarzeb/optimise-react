@@ -13,7 +13,15 @@ export default function Image() {
 
       <main className={styles.main}>
         <img
-          src={'https://res.cloudinary.com/teacode/image/upload/v1631468097/studies/landscape.jxr'}
+          src={'https://res.cloudinary.com/teacode/image/upload/w_1080/v1631468097/studies/landscape.jpg'}
+          srcSet={
+            'https://res.cloudinary.com/teacode/image/upload/w_1080/v1631468097/studies/landscape.jpg 750w,' +
+            'https://res.cloudinary.com/teacode/image/upload/w_1080/v1631468097/studies/landscape.jpg 828w,' +
+            'https://res.cloudinary.com/teacode/image/upload/w_1080/v1631468097/studies/landscape.jpg 1080w,' +
+            'https://res.cloudinary.com/teacode/image/upload/w_1080/v1631468097/studies/landscape.jpg 1200w,' +
+            'https://res.cloudinary.com/teacode/image/upload/w_1080/v1631468097/studies/landscape.jpg 1920w'
+          }
+          alt={'Text image with srcSet'}
           className={styles.image}
         />
 

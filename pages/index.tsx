@@ -16,7 +16,7 @@ export default function Home() {
         <a href={'/image/self-original'}>Image native - self hosted</a>
         <a href={'/image/cloudinary-original'}>Image Cloudinary - original</a>
         <a href={'/image/cloudinary-webp'}>Image Cloudinary - webp</a>
-        <a href={'/image/cloudinary-jxr'}>Image Cloudinary - jxr</a>
+        <a href={'/image/cloudinary-responsive'}>Image Cloudinary - responsive</a>
         <a href={'/image/next-self'}>Image Next - self hosted</a>
         <a href={'/image/next-cloudinary'}>Image Next - Cloudinary</a>
         <a href={'/image/cloudinary-blur'}>Image Cloudinary - blur</a>
