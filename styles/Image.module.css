@@ -66,6 +66,7 @@
 }
 .blurContainer {
   position: relative;
+  height: 680px;
 }
 .blur {
   position: absolute;
