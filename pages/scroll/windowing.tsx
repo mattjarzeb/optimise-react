@@ -47,6 +47,7 @@ export default function ScrollBase() {
 
       <main>
         <List height={1400} itemCount={data.length} itemSize={300} width={900} itemData={data}>
+          {/*@ts-ignore*/}
           {Row}
         </List>
       </main>
