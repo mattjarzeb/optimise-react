@@ -3,7 +3,7 @@ import faker from 'faker'
 import { Data } from '../../interfaces/data.interface'
 
 const mockData = () => {
-  return new Array(10000).fill(0).map(() => ({
+  return new Array(50000).fill(0).map(() => ({
     id: faker.datatype.uuid(),
     firstName: faker.name.firstName(),
     lastName: faker.name.lastName(),
