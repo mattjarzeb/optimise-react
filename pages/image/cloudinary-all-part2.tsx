@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../../../styles/Image.module.css'
+import styles from '../../styles/Image.module.css'
 import * as faker from 'faker'
 import { useEffect, useRef, useState } from 'react'
 
