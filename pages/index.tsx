@@ -48,6 +48,7 @@ export default function Home() {
         <a href={'/scroll/base'}>basic</a>
         <a href={'/scroll/ssr'}>SSR</a>
         <a href={'/scroll/windowing'}>windowing</a>
+        <a href={'/scroll/pagi-window'}>windowing - paginated API</a>
       </main>
     </div>
   )
