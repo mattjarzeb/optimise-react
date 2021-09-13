@@ -47,6 +47,7 @@ export default function Home() {
         <h2>Infinite scroll - Facebook</h2>
         <a href={'/scroll/base'}>basic</a>
         <a href={'/scroll/ssr'}>SSR</a>
+        <a href={'/scroll/windowing'}>windowing</a>
       </main>
     </div>
   )
