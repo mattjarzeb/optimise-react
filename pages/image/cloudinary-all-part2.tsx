@@ -24,13 +24,13 @@ export default function BlurImage() {
         <div className={styles.blurContainer}>
           {loading && (
             <img
-              ref={imgRef}
               src={'https://res.cloudinary.com/teacode/image/upload/w_10,h_10/v1631468097/studies/landscape.webp'}
               alt={'placeholder'}
               className={styles.blur}
             />
           )}
           <img
+            ref={imgRef}
             src={'https://res.cloudinary.com/teacode/image/upload/q_80,h_680/v1631468097/studies/landscape.webp'}
             srcSet={
               'https://res.cloudinary.com/teacode/image/upload/q_80,h_680,w_750/v1631468097/studies/landscape.webp 750w,' +
