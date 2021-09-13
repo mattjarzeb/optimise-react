@@ -6,7 +6,7 @@ export default function Image() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Img - Cloud - original</title>
+        <title>Img - Cloud - q60</title>
         <meta name="description" content="Thesis example" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

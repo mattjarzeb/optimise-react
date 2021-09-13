@@ -6,7 +6,7 @@ export default function Image() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Img - Cloud - jxr</title>
+        <title>Img - Cloud - responsive</title>
         <meta name="description" content="Thesis example" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -21,7 +21,7 @@ export default function Image() {
             'https://res.cloudinary.com/teacode/image/upload/q_100,w_1200/v1631468097/studies/landscape.jpg 1200w,' +
             'https://res.cloudinary.com/teacode/image/upload/q_100,w_1920/v1631468097/studies/landscape.jpg 1920w'
           }
-          alt={'Text image with srcSet'}
+          alt={'Test image with srcSet'}
           className={styles.image}
         />
 
