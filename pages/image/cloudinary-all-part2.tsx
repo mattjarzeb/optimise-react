@@ -31,7 +31,14 @@ export default function BlurImage() {
             />
           )}
           <img
-            src={'https://res.cloudinary.com/teacode/image/upload/q_100/v1631468097/studies/landscape.jpg'}
+            src={'https://res.cloudinary.com/teacode/image/upload/q_80,h_680/v1631468097/studies/landscape.webp'}
+            srcSet={
+              'https://res.cloudinary.com/teacode/image/upload/q_80,h_680,w_750/v1631468097/studies/landscape.webp 750w,' +
+              'https://res.cloudinary.com/teacode/image/upload/q_80,h_680,w_828/v1631468097/studies/landscape.webp 828w,' +
+              'https://res.cloudinary.com/teacode/image/upload/q_80,h_680,w_1080/v1631468097/studies/landscape.webp 1080w,' +
+              'https://res.cloudinary.com/teacode/image/upload/q_80,h_680,w_1200/v1631468097/studies/landscape.webp 1200w,' +
+              'https://res.cloudinary.com/teacode/image/upload/q_80,h_680,w_1920/v1631468097/studies/landscape.webp 1920w'
+            }
             alt={'Test image with srcSet'}
             className={styles.image}
           />

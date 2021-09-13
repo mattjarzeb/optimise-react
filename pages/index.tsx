@@ -42,6 +42,7 @@ export default function Home() {
             <a href={'/image/cls/blur'}>blur</a>
           </li>
         </ul>
+        <a href={'/image/cloudinary-all-part2'}>Image Cloudinary - all -part 2</a>
         <a href={'/image/next-self'}>Image Next - self hosted</a>
         <a href={'/image/next-cloudinary'}>Image Next - Cloudinary</a>
         <a href={'/image/cloudinary-blur'}>Image Cloudinary - blur</a>
