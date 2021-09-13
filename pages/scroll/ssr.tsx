@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../../styles/LongList.module.css'
 import { Data } from '../../interfaces/data.interface'
+import { ssrHandler } from '../api/list-data'
 
 interface IProps {
   data: Data[]
@@ -27,7 +28,6 @@ export default function ScrollSSR({ data }: IProps) {
                 You can reach me here: {el.address.street} {el.address.city} {el.address.code}. <br />
                 <span>{el.phone}</span>
               </p>
-              {/*<img src={el.image} alt={`${el.lastName}-image`} className={styles.img} />*/}
             </div>
           )
         })}
@@ -37,8 +37,7 @@ export default function ScrollSSR({ data }: IProps) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('/api/list-data')
-  const data = await res.json()
+  const data = ssrHandler()
 
   return { props: { data } }
 }

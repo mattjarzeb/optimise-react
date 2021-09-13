@@ -33,7 +33,6 @@ export default function ScrollBase() {
                 You can reach me here: {el.address.street} {el.address.city} {el.address.code}. <br />
                 <span>{el.phone}</span>
               </p>
-              {/*<img src={el.image} alt={`${el.lastName}-image`} className={styles.img} />*/}
             </div>
           )
         })}
