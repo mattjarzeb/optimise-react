@@ -4,7 +4,7 @@ import faker from 'faker'
 import { Data } from '../../interfaces/data.interface'
 
 export default function handler(req: NextApiRequest, res: NextApiResponse<Data[]>) {
-  const mock = new Array(1000).fill(0).map(() => ({
+  const mock = new Array(10000).fill(0).map(() => ({
     id: faker.datatype.uuid(),
     firstName: faker.name.firstName(),
     lastName: faker.name.lastName(),

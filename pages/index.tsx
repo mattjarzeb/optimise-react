@@ -13,6 +13,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to testing optimisation techniques</h1>
         <a href={'/control'}>Control</a>
+        <h2>Images - Microsoft</h2>
         <a href={'/image/self-original'}>Image native - self hosted</a>
         <a href={'/image/cloudinary-original'}>Image Cloudinary - original</a>
         <a href={'/image/cloudinary-webp'}>Image Cloudinary - webp</a>
@@ -43,9 +44,9 @@ export default function Home() {
           </li>
         </ul>
         <a href={'/image/cloudinary-all-part2'}>Image Cloudinary - all -part 2</a>
-        <a href={'/image/next-self'}>Image Next - self hosted</a>
-        <a href={'/image/next-cloudinary'}>Image Next - Cloudinary</a>
-        <a href={'/image/cloudinary-blur'}>Image Cloudinary - blur</a>
+        <h2>Infinite scroll - Facebook</h2>
+        <a href={'/scroll/base'}>basic</a>
+        <a href={'/scroll/ssr'}>SSR</a>
       </main>
     </div>
   )

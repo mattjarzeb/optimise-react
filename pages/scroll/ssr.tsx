@@ -1,18 +1,12 @@
 import Head from 'next/head'
-import styles from '../styles/LongList.module.css'
-import { useEffect, useState } from 'react'
-import { Data } from '../interfaces/data.interface'
+import styles from '../../styles/LongList.module.css'
+import { Data } from '../../interfaces/data.interface'
 
-export default function Home() {
-  const [data, setData] = useState<Data[]>([])
-  useEffect(() => {
-    ;(async function () {
-      const res = await fetch('/api/list-data')
-      const data = await res.json()
-      setData(data)
-    })()
-  }, [])
+interface IProps {
+  data: Data[]
+}
 
+export default function ScrollSSR({ data }: IProps) {
   return (
     <div className={styles.container}>
       <Head>
@@ -33,11 +27,18 @@ export default function Home() {
                 You can reach me here: {el.address.street} {el.address.city} {el.address.code}. <br />
                 <span>{el.phone}</span>
               </p>
-              <img src={el.image} alt={`${el.lastName}-image`} className={styles.img} />
+              {/*<img src={el.image} alt={`${el.lastName}-image`} className={styles.img} />*/}
             </div>
           )
         })}
       </main>
     </div>
   )
+}
+
+export async function getServerSideProps() {
+  const res = await fetch('/api/list-data')
+  const data = await res.json()
+
+  return { props: { data } }
 }
