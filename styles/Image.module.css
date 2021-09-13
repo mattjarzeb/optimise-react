@@ -64,3 +64,11 @@
   height: 680px;
   width: 100%;
 }
+.blurContainer {
+  position: relative;
+}
+.blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

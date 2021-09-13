@@ -38,6 +38,9 @@ export default function Home() {
           <li>
             <a href={'/image/cls/white'}>white box</a>
           </li>
+          <li>
+            <a href={'/image/cls/blur'}>blur</a>
+          </li>
         </ul>
         <a href={'/image/next-self'}>Image Next - self hosted</a>
         <a href={'/image/next-cloudinary'}>Image Next - Cloudinary</a>
